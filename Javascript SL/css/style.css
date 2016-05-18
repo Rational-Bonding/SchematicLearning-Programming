@@ -1,0 +1,83 @@
+body {
+
+}
+
+.header {
+  font-family: '';
+  font-size: 15vw;
+  color: #ff0000;
+}
+
+.category {
+  padding-top: 1em;
+  color: #ff0000;
+}
+
+#schematic {
+  max-width: 960px;
+  margin: 0 auto;
+  border-style: solid;
+  border-color: #333;
+  border-width: 4px;
+  border-radius: 10px;
+  padding: 1em;
+}
+
+#pageWrap {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+#schematic pre {
+  margin: 0 auto;
+  font-size: 3vw;
+}
+
+#schematic pre b {
+  color: #001a66;
+}
+
+#schematic pre .string {
+  color: #0044cc;
+  font-weight: bold;
+}
+
+#schematic pre .callVar {
+  color: #ff0000;
+  font-weight: bold;
+}
+
+#schematic pre .iniVar {
+  color: #00b8e6;
+  font-weight: bold;
+}
+
+#schematic pre .req {
+  background-color: #4d88ff;
+  font-weight: bold;
+}
+
+#schematic pre .opt {
+  background-color: #99e6ff;
+  font-weight: bold;
+}
+
+#schematic pre .any {
+  background-color: #b3ffb3;
+  font-weight: bold;
+}
+
+.word {
+  padding-top: .1em;
+  font-size: 3vw;
+  color: #ff0000;
+}
+
+.category {
+  text-decoration: underline;
+}
+
+.description {
+  color: black;
+}
+

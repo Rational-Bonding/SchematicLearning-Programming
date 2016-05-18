@@ -8,13 +8,15 @@ body {
   color: #330066;
 }
 
-.javascript {
+#javascript {
   color: #ff0000;
+  font-size: 3vw;
 }
 
-.syntax {
+#syntax {
   padding-top: 1em;
   color: #ff8000;
+  font-size: 3vw;
 }
 
 #schematic {
@@ -33,4 +35,9 @@ body {
 
 #schematic pre {
   margin: 0 auto;
+}
+
+.description {
+  color: black;
+  font-size: 2vw;
 }
