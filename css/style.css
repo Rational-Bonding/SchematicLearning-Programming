@@ -1,0 +1,43 @@
+body {
+
+}
+
+.header {
+  font-family: '';
+  font-size: 13vw;
+  color: #330066;
+}
+
+#javascript {
+  color: #ff0000;
+  font-size: 3vw;
+}
+
+#syntax {
+  padding-top: 1em;
+  color: #ff8000;
+  font-size: 3vw;
+}
+
+#schematic {
+  margin: 0 auto;
+  border-style: solid;
+  border-color: #333;
+  border-width: 4px;
+  border-radius: 10px;
+  padding: 1em;
+}
+
+#pageWrap {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+#schematic pre {
+  margin: 0 auto;
+}
+
+.description {
+  color: black;
+  font-size: 2vw;
+}
