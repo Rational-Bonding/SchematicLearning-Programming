@@ -49,3 +49,8 @@ body {
   color: black;
   font-size: 2vw;
 }
+
+code {
+  color: #00ff00;
+  background-color: #000000;
+}
