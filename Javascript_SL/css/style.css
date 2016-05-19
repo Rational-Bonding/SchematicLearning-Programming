@@ -24,7 +24,8 @@ body {
 }
 
 #pageWrap {
-  max-width: 80%;
+  width: 80%;
+  max-width: 600px;
   margin: 0 auto;
 }
 
@@ -81,3 +82,16 @@ body {
   color: black;
 }
 
+
+
+@media (min-width: 700px) {
+  .header {
+    font-size: 105px;
+  }
+  #schematic pre {
+    font-size: 21px;
+  }
+  .word {
+    font-size: 21px;
+  }
+}
