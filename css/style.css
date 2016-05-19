@@ -13,10 +13,18 @@ body {
   font-size: 3vw;
 }
 
+#javascript a {
+	color: #ff0000;
+}
+
 #syntax {
   padding-top: 1em;
   color: #ff8000;
   font-size: 3vw;
+}
+
+#syntax a {
+  color: #ff8000;
 }
 
 #schematic {
