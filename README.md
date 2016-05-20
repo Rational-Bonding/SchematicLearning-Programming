@@ -1,5 +1,6 @@
 # SchematicLearning-Programming
-A tutoring and reference site that uses simplified responsive schematics to teach code.
+A tutoring and reference site that uses simplified responsive schematics to teach code. The address to the site is:
+http://rational-bonding.github.io/SchematicLearning-Programming
 
 ## Links
 The following are pens I've made for this site. currently I am unsure as to how to fully transfer them to this repository. You can see my first attempt to transfer the programming page is a mess right now.
