@@ -37,7 +37,8 @@ body {
 }
 
 #pageWrap {
-  max-width: 80%;
+  width: 80%;
+  max-width: 600px;
   margin: 0 auto;
 }
 
@@ -53,4 +54,16 @@ body {
 code {
   color: #00ff00;
   background-color: #000000;
+}
+
+@media (min-width: 700px) {
+  .header {
+    font-size: 105px;
+  }
+  #schematic pre {
+    font-size: 21px;
+  }
+  .word {
+    font-size: 21px;
+  }
 }
