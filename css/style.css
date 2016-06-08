@@ -13,10 +13,18 @@ body {
   font-size: 3vw;
 }
 
+#javascript a {
+	color: #ff0000;
+}
+
 #syntax {
   padding-top: 1em;
   color: #ff8000;
   font-size: 3vw;
+}
+
+#syntax a {
+  color: #ff8000;
 }
 
 #schematic {
@@ -29,7 +37,8 @@ body {
 }
 
 #pageWrap {
-  max-width: 80%;
+  width: 80%;
+  max-width: 600px;
   margin: 0 auto;
 }
 
@@ -40,4 +49,21 @@ body {
 .description {
   color: black;
   font-size: 2vw;
+}
+
+code {
+  color: #00ff00;
+  background-color: #000000;
+}
+
+@media (min-width: 700px) {
+  .header {
+    font-size: 105px;
+  }
+  #schematic pre {
+    font-size: 21px;
+  }
+  .word {
+    font-size: 21px;
+  }
 }

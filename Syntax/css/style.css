@@ -8,7 +8,7 @@ body {
   color: #ff0000;
 }
 
-.category {
+p {
   padding-top: 1em;
   color: #ff0000;
 }
@@ -24,7 +24,8 @@ body {
 }
 
 #pageWrap {
-  max-width: 80%;
+  width: 80%;
+  max-width: 600px;
   margin: 0 auto;
 }
 
@@ -33,8 +34,9 @@ body {
   font-size: 3vw;
 }
 
-#schematic pre b {
+#schematic pre #hardCode {
   color: #001a66;
+  font-weight: bold;
 }
 
 #schematic pre .string {
@@ -67,17 +69,26 @@ body {
   font-weight: bold;
 }
 
-.word {
-  padding-top: .1em;
-  font-size: 3vw;
-  color: #ff0000;
-}
-
-.category {
+.section {
   text-decoration: underline;
 }
 
 .description {
   color: black;
+  font-size: 2vw;
 }
 
+@media (min-width: 700px) {
+  .header {
+    font-size: 105px;
+  }
+  #schematic pre {
+    font-size: 21px;
+  }
+  .word {
+    font-size: 21px;
+  }
+  .description{
+    font-size: 14px;
+  }
+}
